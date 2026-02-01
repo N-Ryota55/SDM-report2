@@ -19,11 +19,11 @@ class TestCalc (unittest.TestCase):
         def test_sample4 (self):
                 self.assertEqual (998001, calc(999,999))
 
-	def test_sample5 (self):
-		self.assretEqual (-1, calc(1000,100))
+        def test_sample5 (self):
+                self.assertEqual (-1, calc(1000,100))
 
-	def test_sample6 (self):
-                self.assretEqual (-1, calc("500",100))
+        def test_sample6 (self):
+                self.assertEqual (-1, calc("500",100))
 
-	def test_sample7 (self):
-                self.assretEqual (-1, calc(0.5, 100))
+        def test_sample7 (self):
+                self.assertEqual (-1, calc(0.5, 100))
